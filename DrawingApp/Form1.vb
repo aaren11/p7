@@ -51,7 +51,7 @@
         c = sender.backcolor
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click, Button4.Click, Button5.Click, Button6.Click, Button7.Click, Button8.Click, Button9.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click, Button4.Click, Button5.Click, Button6.Click, Button7.Click, Button8.Click, Button9.Click, Button10.Click, Button11.Click, Button12.Click, Button13.Click, Button14.Click, Button15.Click
         c = sender.backcolor
     End Sub
 
@@ -66,5 +66,9 @@
     Private Sub Save_Click(sender As Object, e As EventArgs) Handles Save.Click
         SaveFileDialog1.ShowDialog()
         PictureBox1.Image.Save(SaveFileDialog1.FileName)
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        w = TrackBar1.Value
     End Sub
 End Class

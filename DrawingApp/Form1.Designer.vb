@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -38,6 +38,12 @@ Partial Class Form1
         Me.Clear = New System.Windows.Forms.Button()
         Me.Save = New System.Windows.Forms.Button()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -164,11 +170,77 @@ Partial Class Form1
         Me.Save.Text = "Save"
         Me.Save.UseVisualStyleBackColor = True
         '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Goldenrod
+        Me.Button10.Location = New System.Drawing.Point(707, 45)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(26, 23)
+        Me.Button10.TabIndex = 14
+        Me.Button10.Text = "Button10"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.PowderBlue
+        Me.Button11.Location = New System.Drawing.Point(739, 44)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(26, 23)
+        Me.Button11.TabIndex = 15
+        Me.Button11.Text = "Button11"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.Color.HotPink
+        Me.Button12.Location = New System.Drawing.Point(771, 45)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(26, 23)
+        Me.Button12.TabIndex = 16
+        Me.Button12.Text = "Button12"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.Color.SlateBlue
+        Me.Button13.Location = New System.Drawing.Point(867, 45)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(26, 23)
+        Me.Button13.TabIndex = 17
+        Me.Button13.Text = "Button13"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button14.Location = New System.Drawing.Point(803, 45)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(26, 23)
+        Me.Button14.TabIndex = 18
+        Me.Button14.Text = "Button14"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.PowderBlue
+        Me.Button15.Location = New System.Drawing.Point(835, 45)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(26, 23)
+        Me.Button15.TabIndex = 19
+        Me.Button15.Text = "Button15"
+        Me.Button15.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(897, 487)
+        Me.Controls.Add(Me.Button15)
+        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Save)
         Me.Controls.Add(Me.Clear)
         Me.Controls.Add(Me.Button9)
@@ -208,4 +280,10 @@ Partial Class Form1
     Friend WithEvents Clear As Button
     Friend WithEvents Save As Button
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
 End Class
